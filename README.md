@@ -16,6 +16,12 @@
 | [pattern-match.md](./pattern-match.md) | 模式匹配编译详解：从语法模式到决策树的全流程 |
 | [monomorphization.md](./monomorphization.md) | 单态化详解：泛型展开的工作列表算法、类型替换 |
 | [error-handling.md](./error-handling.md) | 错误处理与Async变换：checked errors、CPS状态机 |
+| [package-system.md](./package-system.md) | 包与模块系统：moon.pkg.json、.mi接口、导入解析 |
+| [ffi-system.md](./ffi-system.md) | FFI外部函数接口：Import、内联Wasm、内部函数 |
+| [builtins.md](./builtins.md) | 内建类型与基元操作：Option、Ref、Result、基元指令 |
+| [diagnostics.md](./diagnostics.md) | 诊断与错误系统：警告码(1-45)、错误报告、ICE捕获 |
+| [closure-conversion.md](./closure-conversion.md) | Lambda提升与闭包转换：自由变量、环境打包、Subtop/Toplevel |
+| [data-layout.md](./data-layout.md) | 数据布局与内存模型：Wasm GC映射、Option紧凑编码 |
 
 ## 项目概览
 
