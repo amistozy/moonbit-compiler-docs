@@ -11,6 +11,11 @@
 | [type-system.md](./type-system.md) | 类型系统详解：Stype/Mtype/Ltype_gc 四层类型、unification、Wasm GC映射 |
 | [ir-overview.md](./ir-overview.md) | 中间表示详解：Core/Mcore/Clam/Dwarfsm 四层IR的AST结构与转换关系 |
 | [codegen.md](./codegen.md) | Wasm GC 代码生成详解：Clam→Dwarfsm转换、二进制编码、优化Pass |
+| [optimization.md](./optimization.md) | 优化Pass详解：10个Pass的算法、目的和执行顺序 |
+| [trait-system.md](./trait-system.md) | Trait系统详解：声明、实现、静态/动态分发、方法解析 |
+| [pattern-match.md](./pattern-match.md) | 模式匹配编译详解：从语法模式到决策树的全流程 |
+| [monomorphization.md](./monomorphization.md) | 单态化详解：泛型展开的工作列表算法、类型替换 |
+| [error-handling.md](./error-handling.md) | 错误处理与Async变换：checked errors、CPS状态机 |
 
 ## 项目概览
 
