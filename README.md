@@ -27,6 +27,12 @@
 | [derive.md](./derive.md) | Derive宏机制：自动生成trait实现 |
 | [debug-info.md](./debug-info.md) | 源码映射与调试信息：source map、DWARF、值追踪 |
 | [core-format.md](./core-format.md) | Core文件格式：S-Expression序列化、bundle/import |
+| [core-of-tast.md](./core-of-tast.md) | Core IR 生成详解：Typedtree→Core IR的翻译过程、上下文、控制流处理 |
+| [clam-of-core.md](./clam-of-core.md) | Clam IR 生成详解：Core→Clam转换、闭包翻译、类型降级、Wasm GC映射 |
+| [lexer-internals.md](./lexer-internals.md) | 词法分析器内幕：Unicode码点处理、Token定义(100+变体)、ASI算法 |
+| [attribute-system.md](./attribute-system.md) | 属性/注解系统详解：@intrinsic、@deprecated、@alert的解析与验证 |
+| [wasm-gc-encoding.md](./wasm-gc-encoding.md) | Wasm GC指令编码内幕：Dwarfsm AST、wasmgc_constr、二进制编码管道 |
+| [subtyping.md](./subtyping.md) | 子类型检查与类型等价：Union-Find、Unification算法、Trait子类型、Error层次 |
 
 ## 项目概览
 
