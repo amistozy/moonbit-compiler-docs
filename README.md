@@ -22,6 +22,11 @@
 | [diagnostics.md](./diagnostics.md) | 诊断与错误系统：警告码(1-45)、错误报告、ICE捕获 |
 | [closure-conversion.md](./closure-conversion.md) | Lambda提升与闭包转换：自由变量、环境打包、Subtop/Toplevel |
 | [data-layout.md](./data-layout.md) | 数据布局与内存模型：Wasm GC映射、Option紧凑编码 |
+| [type-checker-internals.md](./type-checker-internals.md) | 类型检查器内幕：双向检查、unification、约束求解 |
+| [linking.md](./linking.md) | 链接过程：多包Core IR合并、单态化前置 |
+| [derive.md](./derive.md) | Derive宏机制：自动生成trait实现 |
+| [debug-info.md](./debug-info.md) | 源码映射与调试信息：source map、DWARF、值追踪 |
+| [core-format.md](./core-format.md) | Core文件格式：S-Expression序列化、bundle/import |
 
 ## 项目概览
 
